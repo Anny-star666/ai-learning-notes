@@ -27,10 +27,12 @@
 - **主要语言**：TypeScript 91.9%（另有 SCSS 6.7%）
 - **Star 数**：88.9k
 - **Fork 数**：58.6k
-- **安装方式**：三种
-  1. 一键部署到 Vercel（README 的 Get Started 只有三步：拿 API Key → 点 Deploy → 访问）
-  2. 下载约 5MB 的桌面客户端（Win/Mac/Linux）
-  3. 仓库含 Dockerfile 和 docker-compose.yml，可自行 Docker 部署
+- **安装方式**：4 种部署路径，按难度递增
+  1. Vercel 一键部署（README「开始使用」，点 Deploy 按钮，填 API Key 和访问密码，本地零安装）
+  2. Zeabur 部署（README 顶部按钮）
+  3. Docker 容器部署（官方推荐，需 Docker 20+，`docker pull yidadada/chatgpt-next-web`）
+  4. 本地脚本部署（Linux/Mac，一条 setup.sh）
+  - 另有「本地开发」章节：需 Node.js 18 + yarn，用于二次开发，不是部署
 - **我关注的点**：第 3 周做的聊天界面可以参考它的样子——流式输出、多轮对话、Markdown 渲染、深色模式
 
 ---
